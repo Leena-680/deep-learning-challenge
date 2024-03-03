@@ -42,20 +42,24 @@ because it is ideal for modeling positive, nonlinear input data for classificati
 The sigmoid function was utilized, because its values are normalized to a probability between 0 and 1, 
 which is ideal for a binary classification dataset.
 
+![Model 1](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/0863b0f4-2f2f-4e31-b28c-da23e3026a14)
 
 ![ALT TEXT](/Assets/Model 2.png)
 
 *Model 1 Accuracy*  
+![Acc 1](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/ac92b429-d71b-4047-b817-9240986e1545)
 
 ![ALT TEXT](/Assets/Acc 1.png)
 
 **Model2**  
 For this neural network model 3 hidden layers with 129, 86 and 43 neurons with 150 training epochs are used. 
 The reLU activation and sigmoid functions are used.
+![Model 2](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/b2953ac5-63f7-48d5-880a-da772c8820e8)
 
 ![ALT TEXT](/Assets/Model 2.png)
 
 *Model 2 Accuracy*
+![Acc 2](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/bf663ff1-46d3-4e85-8e63-9029ef0591e6)
 
 ![ALT TEXT](/Assets/Acc 2.png)
 
@@ -63,10 +67,12 @@ The reLU activation and sigmoid functions are used.
 **Model3**  
 This neural network model utilizes 4 hidden layers with 172, 129, 86 and 43 neurons with 200 training epochs. 
 The reLU activation and sigmoid functions were utilized as well.
+![Model 3](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/e5dc4d02-ed27-49a7-a4b7-0b2450080461)
 
 ![ALT TEXT](/Assets/Model 3.png)
 
 *Model 3 Accuracy*
+![Acc 3](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/661b262d-7abc-4503-b5a0-a69e6822299c)
 
 ![ALT TEXT](/Assets/Acc 3.png)
 
