@@ -71,7 +71,7 @@ The reLU activation and sigmoid functions were utilized as well.
 
 ![ALT TEXT](/Assets/Model 3.png)     
 
-*Model 3 Accuracy*
+*Model 3 Accuracy*  
 ![Acc 3](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/661b262d-7abc-4503-b5a0-a69e6822299c)    
 
 ![ALT TEXT](/Assets/Acc 3.png)   
