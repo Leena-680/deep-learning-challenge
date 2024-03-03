@@ -43,7 +43,7 @@ The sigmoid function was utilized, because its values are normalized to a probab
 which is ideal for a binary classification dataset.
 
 
-![ALT TEXT](/Assets/Model 1.png)
+![ALT TEXT](/Assets/Model 2.png)
 
 *Model 1 Accuracy*  
 
