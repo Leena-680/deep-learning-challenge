@@ -3,17 +3,17 @@
 The purpose of this project is to create machine learning nearal network to predict applicant's chances of succeeding in their business venture. Input data is in csv file format. 
 
 ## Process
-1. Begin by importing and preprocessing the dataset.
-2. Preprocessing consists of removing null values and dimension reduction
-3. Use preprocessed data to compile, train and evaluate the Model
-4. Export the model for future use.
-5. Optimise the model.
+1. Begin by importing and preprocessing the dataset.  
+2. Preprocessing consists of removing null values and dimension reduction  
+3. Use preprocessed data to compile, train and evaluate the Model  
+4. Export the model for future use.  
+5. Optimise the model.  
 
 ## Files and folders included in the repository  
-- Resources/charity_data.csv      - This is provided input file
-- deep-learning-challenge.ipynb   - This is model 1.
-- deep-learning-challenge-model2  - This is model 2.
-- deep-learning-challenge-model3  - This is model 3.
+- Resources/charity_data.csv      - This is provided input file  
+- deep-learning-challenge.ipynb   - This is model 1.  
+- deep-learning-challenge-model2  - This is model 2.  
+- deep-learning-challenge-model3  - This is model 3.  
 
 
 ## Analysis    
@@ -22,13 +22,13 @@ The purpose of this project is to create machine learning nearal network to pred
 
 *Features Variable(s):* The features for the model include the following columns:   
 
-APPLICATION_TYPE: Alphabet Soup application type;
-AFFILIATION: Affiliated sector of industry;
-CLASSIFICATION: Government organization classification;
-USE_CASE: Use case for funding;
-ORGANIZATION: Organization type;
-INCOME_AMT: Income classification;
-ASK_AMT: Funding amount requested.
+APPLICATION_TYPE: Alphabet Soup application type;  
+AFFILIATION: Affiliated sector of industry;  
+CLASSIFICATION: Government organization classification;  
+USE_CASE: Use case for funding;  
+ORGANIZATION: Organization type;  
+INCOME_AMT: Income classification;  
+ASK_AMT: Funding amount requested.  
 
 *Variables* that should be removed from the input data because they are neither targets nor features:
 "EIN" and "NAME" columns were removed for the 1st and 2nd attempts, as they were not directly linked to the probability of success. 
