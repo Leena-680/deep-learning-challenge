@@ -42,6 +42,7 @@ because it is ideal for modeling positive, nonlinear input data for classificati
 The sigmoid function was utilized, because its values are normalized to a probability between 0 and 1, 
 which is ideal for a binary classification dataset.
 
+
 ![ALT TEXT](/Assets/Model 1.png)
 
 *Model 1 Accuracy*  
@@ -72,7 +73,7 @@ The reLU activation and sigmoid functions were utilized as well.
 
 **Comparison of different models**  
 The first model had an accuracy score of 73.09%. After increasing the number of neurons and layers, the second model 
-had an accuracy score of 72.92%. After increasing the epochs, the third model had an accuracy score of 72.47%. 
+had an accuracy score of 72.92%. After increasing the epochs, the third model had an accuracy score of 72.72%. 
 Even though third model has more hidden layers, accuracy has decreased. This indicates overfitting model.
 These models did not reach the target model performance of 75%.
 
