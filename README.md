@@ -16,11 +16,11 @@ The purpose of this project is to create machine learning nearal network to pred
 - deep-learning-challenge-model3  - This is model 3.
 
 
-## Analysis
-**Data Preprocessing**
-Target Variable(s): The target variable for the model is the "IS_SUCCESSFUL" column, which indicates whether the funding was used effectively (1) or not (0).
+## Analysis    
+**Data Preprocessing**     
+*Target Variable(s):* The target variable for the model is the "IS_SUCCESSFUL" column, which indicates whether the funding was used effectively (1) or not (0).   
 
-Features Variable(s): The features for the model include the following columns:
+*Features Variable(s):* The features for the model include the following columns:   
 
 APPLICATION_TYPE: Alphabet Soup application type;
 AFFILIATION: Affiliated sector of industry;
@@ -30,7 +30,7 @@ ORGANIZATION: Organization type;
 INCOME_AMT: Income classification;
 ASK_AMT: Funding amount requested.
 
-Variables that should be removed from the input data because they are neither targets nor features:
+*Variables* that should be removed from the input data because they are neither targets nor features:
 "EIN" and "NAME" columns were removed for the 1st and 2nd attempts, as they were not directly linked to the probability of success. 
 "SPECIAL_CONSIDERATIONS" column, additionally was removed for the 3rd attempt, it did not improve accuracy of the model.
 
@@ -42,39 +42,39 @@ because it is ideal for modeling positive, nonlinear input data for classificati
 The sigmoid function was utilized, because its values are normalized to a probability between 0 and 1, 
 which is ideal for a binary classification dataset.
 
-![Model 1](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/0863b0f4-2f2f-4e31-b28c-da23e3026a14)
+![Model 1](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/0863b0f4-2f2f-4e31-b28c-da23e3026a14)  
 
-![ALT TEXT](/Assets/Model 2.png)
+![ALT TEXT](/Assets/Model 2.png)   
 
 *Model 1 Accuracy*  
-![Acc 1](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/ac92b429-d71b-4047-b817-9240986e1545)
+![Acc 1](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/ac92b429-d71b-4047-b817-9240986e1545)   
 
 ![ALT TEXT](/Assets/Acc 1.png)  
 
 **Model2**  
 For this neural network model 3 hidden layers with 129, 86 and 43 neurons with 150 training epochs are used. 
 The reLU activation and sigmoid functions are used.
-![Model 2](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/b2953ac5-63f7-48d5-880a-da772c8820e8)
+![Model 2](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/b2953ac5-63f7-48d5-880a-da772c8820e8)   
 
 ![ALT TEXT](/Assets/Model 2.png)   
 
 *Model 2 Accuracy*
-![Acc 2](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/bf663ff1-46d3-4e85-8e63-9029ef0591e6)
+![Acc 2](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/bf663ff1-46d3-4e85-8e63-9029ef0591e6)   
 
-![ALT TEXT](/Assets/Acc 2.png)
+![ALT TEXT](/Assets/Acc 2.png)   
 
 
 **Model3**  
 This neural network model utilizes 4 hidden layers with 172, 129, 86 and 43 neurons with 200 training epochs. 
 The reLU activation and sigmoid functions were utilized as well.
-![Model 3](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/e5dc4d02-ed27-49a7-a4b7-0b2450080461)
+![Model 3](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/e5dc4d02-ed27-49a7-a4b7-0b2450080461)   
 
-![ALT TEXT](/Assets/Model 3.png)   
+![ALT TEXT](/Assets/Model 3.png)     
 
 *Model 3 Accuracy*
-![Acc 3](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/661b262d-7abc-4503-b5a0-a69e6822299c)
+![Acc 3](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/661b262d-7abc-4503-b5a0-a69e6822299c)    
 
-![ALT TEXT](/Assets/Acc 3.png)
+![ALT TEXT](/Assets/Acc 3.png)   
 
 
 **Comparison of different models**  
