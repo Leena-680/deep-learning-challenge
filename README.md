@@ -44,7 +44,7 @@ which is ideal for a binary classification dataset.
 
 ![Model 1](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/0863b0f4-2f2f-4e31-b28c-da23e3026a14)  
 
-![ALT TEXT](/Assets/Model 2.png)   
+![ALT TEXT](/Assets/Model 1.png)   
 
 *Model 1 Accuracy*  
 ![Acc 1](https://github.com/Leena-680/deep-learning-challenge/assets/10916160/ac92b429-d71b-4047-b817-9240986e1545)   
